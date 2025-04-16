@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dad Joke Generator</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; margin: 50px; background-color: #fff; color: #333; }
+    button { padding: 10px 20px; margin-top: 20px; }
+    #joke { margin-top: 20px; font-size: 1.2em; }
+  </style>
+</head>
+<body>
+  <h1>Get a Dad Joke</h1>
+  <button onclick="generateJoke()">Make Me Laugh</button>
+  <div id="joke"></div>
+  <script>
+    const jokes = [
+      "I only know 25 letters of the alphabet. I don't know y.",
+      "I used to play piano by ear, now I use my hands.",
+      "What’s brown and sticky? A stick.",
+      "Why did the scarecrow win an award? Because he was outstanding in his field!"
+    ];
+    function generateJoke() {
+      const joke = jokes[Math.floor(Math.random() * jokes.length)];
+      document.getElementById('joke').innerText = joke;
+    }
+  </script>
+  <p><a href="scratch.html">Back to Scratch Page</a></p>
+</body>
+</html>

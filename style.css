@@ -1,0 +1,32 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fafafa;
+  color: #111;
+  margin: 0;
+}
+.nav {
+  background: #111;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.header {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+.main-img {
+  display: block;
+  margin: 30px auto;
+  max-width: 300px;
+}
+.anchor {
+  text-align: center;
+  margin-top: 40px;
+}
